@@ -1,0 +1,5 @@
+FreeBSD config(5) for GNU Linux
+
+To Compile:
+bmake
+bmake install

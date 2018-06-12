@@ -1,0 +1,10 @@
+/*
+ * This file acts as a template for config.c that will be generated in the
+ * kernel build directory after config(8) has been successfully run.
+ *
+ * $FreeBSD$
+ */
+#include "config.h"
+
+const char kernconfstr[] __attribute__ ((section("kern_conf"))) =
+"%%KERNCONFFILE%%";
